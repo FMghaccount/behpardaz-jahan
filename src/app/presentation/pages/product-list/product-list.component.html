@@ -1,7 +1,7 @@
+<div class="add-button-wrapper">
+  <button mat-raised-button (click)="addProduct()" color="info">افزودن محصول</button>
+</div>
 <div class="table-wrapper">
-  <div class="add-button-wrapper">
-    <button mat-raised-button (click)="addProduct()" color="info">افزودن محصول</button>
-  </div>
   <table mat-table [dataSource]="dataSource" matSort class="product-list-table">
     <!-- id Column -->
     <ng-container matColumnDef="id">

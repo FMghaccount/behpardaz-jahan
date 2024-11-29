@@ -118,6 +118,7 @@ html {
   display: block;
   position: relative !important;
   z-index: 99 !important;
+  width: max-content;
 }
 
 .mdc-data-table__content {
@@ -129,4 +130,18 @@ html {
 
 .mat-mdc-dialog-surface {
   overflow: hidden;
+}
+
+.mat-mdc-paginator-container{
+  flex-wrap: nowrap !important;
+  overflow: hidden !important;
+  justify-content: flex-start !important;
+}
+
+.mat-mdc-paginator-page-size-label{
+  width: max-content;
+}
+
+.mat-mdc-paginator-range-label{
+  width: max-content;
 }
